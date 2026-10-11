@@ -1,0 +1,42 @@
+# Simulation outputs
+*.vcd
+*_sim
+simulations/
+
+# macOS files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Dataset and generated data
+Dataset/
+data/
+
+# Model checkpoints and exported parameters
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# FPGA tool-generated files
+*.jou
+*.log
+*.wdb
+*.bit
+*.ltx
+*.dcp
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+.Xil/
+
+# Editor files
+.vscode/
+
