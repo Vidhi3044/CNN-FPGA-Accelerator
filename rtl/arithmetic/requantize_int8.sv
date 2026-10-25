@@ -14,7 +14,7 @@ logic signed [63:0] product;
 logic signed [63:0] rounded_product;
 logic signed [63:0] scaled_value;
 
-always_comb begin
+always @* begin
     product = accumulator * multiplier;
 
     if (SHIFT > 0)
